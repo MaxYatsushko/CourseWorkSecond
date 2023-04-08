@@ -55,4 +55,9 @@ public class JavaQuestionService implements QuestionService {
         return questionList.get(random.nextInt(questionList.size()));
 
     }
+
+    @Override
+    public void init() {
+        questions.clear();
+    }
 }
