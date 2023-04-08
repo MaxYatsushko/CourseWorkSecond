@@ -1,0 +1,27 @@
+GET http://localhost:8080/exam/java/add?question=Самая большая страна&answer=Россия
+###
+GET http://localhost:8080/exam/java
+###
+GET http://localhost:8080/exam/java/add?question=Страна с наибольшим населением&answer=Индия
+###
+GET http://localhost:8080/exam/java/remove?question=Самая большая страна&answer=Россия
+###
+GET http://localhost:8080/exam/java/add?question=Самый используемый язык&answer=Английский
+###
+GET http://localhost:8080/exam/java/add?question=Где живут японцы&answer=В Японии
+###
+GET http://localhost:8080/exam/java/add?question=Самый большой океан&answer=Тихий
+###
+GET http://localhost:8080/exam/java/add?question=Самый маленький океан&answer=Северный ледовитый
+###
+GET http://localhost:8080/exam/java/add?question=Количество океанов&answer=Пять
+###
+GET http://localhost:8080/exam/java/add?question=Количество материков&answer=Шесть
+###
+GET http://localhost:8080/exam/java/add?question=Количество часовых поясов в России&answer=Одинадцать
+###
+GET http://localhost:8080/exam/get/5
+###
+GET http://localhost:8080/exam/get/3
+###
+GET http://localhost:8080/exam/get/0
